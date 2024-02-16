@@ -16,7 +16,7 @@ The script demonstrates creating a new customer and associated account with `cre
 
 ### Executing Transactions
 
-The script then demonstrates making transactions on the newly created account. It deposits an amount of 100 units into the account and then withdraws 50 units. The `TransactionUseCase` handles these operations, updating the account's balance accordingly. Error handling for insufficient balance is demonstrated using a try-except block, catching `InsufficientBalanceError` if a withdrawal attempt exceeds the account's balance.
+The script then demonstrates making transactions on the newly created account. It deposits an amount of 100 units into the account and then withdraws 50 units. The `TransactionUseCase` handles these operations, updating the account's balance accordingly and creating a new transaction record. Error handling for insufficient balance is demonstrated using a try-except block, catching `InsufficientBalanceError` if a withdrawal attempt exceeds the account's balance.
 
 ### Generating Account Statement
 
